@@ -1,0 +1,114 @@
+### Odata service entry point
+GET http://localhost:4004/service/ResilienceCockpitService
+
+
+### Request to fetch Local Supplier List
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
+Authorization: Basic alice:welcome
+
+
+### Request to fetch Local Supplier List in ODATA V2
+GET http://localhost:4004/odata/v2/service/ResilienceCockpitService/AlternateSuppliers?$expand=SupplierMaterials
+Authorization: Basic alice:welcome
+
+### Request to fetch Local Supplier List with filtered data
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers?$filter=CountryCode eq 'IN'
+Authorization: Basic alice:welcome
+
+
+### Read specific entity
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)
+Authorization: Basic alice:welcome
+
+### Expantion for Supplier Materials
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)?$expand=SupplierMaterials
+
+
+### Update specific entity, Property
+PATCH http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652249-63ee-4bc8-bd18-96681c90bea2,IsActiveEntity=true)
+Authorization: Basic alice:welcome
+Content-Type: application/json
+
+{
+    "SupplierRating": 50
+}
+
+
+### Update specific entity, Nested Property
+PATCH http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652249-63ee-4bc8-bd18-96681c90bea2,IsActiveEntity=true)
+Authorization: Basic alice:welcome
+Content-Type: application/json
+
+{
+    "CountryCode": "ABC"
+}
+
+
+### Update specific entity, Nested Property
+POST http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
+Authorization: Basic alice:welcome
+Content-Type: application/json
+
+{
+    "SupplierNumber": "SN11054544",
+    "SupplierName": "John Systems A",
+    "Address": "Address-1265a 12312asds dasdasd",
+    "SupplierRating": 0,
+    "CountryCode": "IN",
+    "IsActiveEntity": true
+}
+
+
+### Update specific entity, Nested Property
+DELETE http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=f711c2d8-aad2-4613-b480-485235776ca0,IsActiveEntity=false)
+Authorization: Basic alice:welcome
+
+
+
+### Custom Function trigger
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)/SupplierItemCount
+Authorization: Basic alice:welcome
+
+
+### Custom Action trigger
+POST http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)/UpVote
+Authorization: Basic alice:welcome
+
+
+### Create a draft entry
+POST http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
+Authorization: Basic alice:welcome
+Content-Type: application/json
+
+{
+    "SupplierNumber": "SN11054544AB",
+    "SupplierName": "John Systems ABC",
+    "Address": "Address-1265a 12312asds dasdasd",
+    "SupplierRating": 0,
+    "CountryCode": "IN",
+    "IsActiveEntity": false
+}
+
+
+
+### Read from Standard API
+GET https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_INFORECORD_PROCESS_SRV/A_PurchasingInfoRecord
+APIKey: PzGAwHucAmdaYPdJOIyU94fXj3HZsMIG
+Accept: application/json
+
+
+### Read data from Destination
+GET http://SAP_API_HUB.dest/A_PurchasingInfoRecord
+Accept: application/json
+
+
+### Refresh Local Proxy
+GET http://localhost:8887/reload
+
+
+###
+GET http://localhost:4004/service/ResilienceCockpitService/A_PurchasingInfoRecord
+Authorization: Basic alice:welcome
+Accept: application/json
+
+

@@ -1,6 +1,4 @@
-namespace resilience.cockpit;
-
-using from '@sap/cds-common-content';
+namespace ResilienceCockpit;
 
 using
 {
@@ -9,6 +7,8 @@ using
     Country
 }
 from '@sap/cds/common';
+
+using from '@sap/cds-common-content';
 
 entity AlternateSuppliers : cuid, managed
 {
@@ -26,7 +26,7 @@ entity SupplierMaterials : cuid, managed
     LeadTime : Integer;
     Specifications : SpecificationType;
     AlternateSupplier : Association to one AlternateSuppliers;
-    PossibleAlternates : Composition of many AlternativeMaterials on PossibleAlternates.AlternativeMaterials = $self;
+    PossibleAlternates : Association to many AlternativeMaterials on PossibleAlternates.AlternativeMaterial = $self;
 }
 
 type SpecificationType
@@ -45,6 +45,6 @@ type DimentionType
 entity AlternativeMaterials : cuid
 {
     OriginalMaterialNumber : String(30);
-    PercentMatch : Integer;
-    AlternativeMaterials : Association to one SupplierMaterials;
+    PercentageMatch : Integer;
+    AlternativeMaterial : Association to one SupplierMaterials;
 }

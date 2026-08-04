@@ -1,0 +1,6 @@
+ID,SupplierNumber,SupplierName,Address,Country_code,SupplierRating,createdAt,createdBy,modifiedAt,modifiedBy
+12652249-63ee-4bc8-bd18-96681c90bea2,SupplierNumber-12652249,SupplierName-12652249,Address-12652249,IN,35,2015-09-15T00:00:00.000Z,createdBy.7j6jd@example.org,2005-02-16T00:00:00.000Z,modifiedBy.7j6jd@example.org
+12652250-179d-4ea7-b3ff-38ce71a697f3,SupplierNumber-12652250,SupplierName-12652250,Address-12652250,RU,66,2019-04-01T00:00:00.000Z,createdBy.7j6je@example.net,2015-03-03T00:00:00.000Z,modifiedBy.7j6je@example.com
+12652251-4076-4456-8585-94bf767e0f44,SupplierNumber-12652251,SupplierName-12652251,Address-12652251,CH,18,2011-10-08T00:00:00.000Z,createdBy.7j6jf@example.com,2001-08-19T00:00:00.000Z,modifiedBy.7j6jf@example.com
+12652252-0dac-4946-a116-fe4178cf871a,SupplierNumber-12652252,SupplierName-12652252,Address-12652252,JP,14,2006-12-29T00:00:00.000Z,createdBy.7j6jg@example.net,2013-08-19T00:00:00.000Z,modifiedBy.7j6jg@example.com
+12652253-4431-4644-be73-923640c7fba3,SupplierNumber-12652253,SupplierName-12652253,Address-12652253,DE,68,2021-06-12T00:00:00.000Z,createdBy.7j6jh@example.net,2012-08-27T00:00:00.000Z,modifiedBy.7j6jh@example.net
