@@ -1,0 +1,32 @@
+{
+  "generationParameters": {
+    "generationDate": "Sat Aug 08 2026 04:22:35 GMT+0000 (Coordinated Universal Time)",
+    "generatorPlatform": "SAP Business Application Studio",
+    "serviceType": "Local CAP",
+    "metadataFilename": "",
+    "serviceUrl": "http://localhost:4004/service/ResilienceCockpitService/",
+    "appName": "supplier-list",
+    "appTitle": "Managed Suppliers",
+    "appDescription": "Fiori App to manage Suppliers",
+    "appNamespace": "nexus",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.151.0",
+    "enableEslint": true,
+    "enableTypeScript": false,
+    "showMockDataInfo": false,
+    "generatorVersion": "1.30.0",
+    "template": "List Report Page V4",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "AlternateSuppliers"
+      },
+      {
+        "type": "Navigation Entity",
+        "value": "SupplierMaterials"
+      }
+    ],
+    "launchText": "To launch the generated app, start your CAP project:  and navigate to the following location in your browser:\n\nhttp://localhost:4004/supplier-list/webapp/index.html"
+  }
+}

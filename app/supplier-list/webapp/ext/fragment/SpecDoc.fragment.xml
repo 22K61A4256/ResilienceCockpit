@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:macros="sap.fe.macros">
+	<VBox id="VBox" core:require="{ handler: 'nexus/supplierlist/ext/fragment/SpecDoc'}">
+	    <PDFViewer id = "pdfviewer" source="https://ui5.sap.com/test-resources/sap/m/demokit/sample/PDFViewerEmbedded/sample.pdf#view=FitH" isTrustedSource="true" height="30rem">
+	        <layoutData>
+			    <FlexItemData id = "pdfviewerLayout" growFactor="1" />
+	        </layoutData>
+	    </PDFViewer>
+	</VBox>
+</core:FragmentDefinition>

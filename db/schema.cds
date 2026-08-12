@@ -37,7 +37,7 @@ type SpecificationType
 
 type DimentionType
 {
-    Length : Decimal(5,2);
+    Length : Decimal(11,2);
     Width : Decimal(5,2);
     Height : Decimal(5,2);
 }
@@ -47,4 +47,10 @@ entity AlternativeMaterials : cuid
     OriginalMaterialNumber : String(30);
     PercentageMatch : Integer;
     AlternativeMaterial : Association to one SupplierMaterials;
+}
+
+entity SupplierLocations {
+    key Supplier : String(32);
+    Lat : Decimal(10,8);
+    Lng : Decimal(10,8);
 }

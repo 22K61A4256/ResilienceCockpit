@@ -1,0 +1,6 @@
+{
+    "destination": [{
+        "name":"SAP_API_HUB",
+        "url":"http://SAP_API_HUB.dest"
+    }]
+}

@@ -1,0 +1,133 @@
+{
+  "_version": "1.86.0",
+  "sap.app": {
+    "id": "nexus.suppliergeo",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.30.0",
+      "toolsId": "9d815768-b858-4f21-85e6-847fdbaac6b5"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/service/ResilienceCockpitService/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "odataVersion": "4.0"
+        }
+      }
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "Suppliers-view": {
+          "semanticObject": "Suppliers",
+          "action": "view",
+          "title": "{{Suppliers-view.flpTitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "resourceRoots": {
+      "sap.ui.geomap": "./resources/sap/ui/geomap"
+    },
+    "dependencies": {
+      "minUI5Version": "1.151.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "nexus.suppliergeo.i18n.i18n"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "nexus.suppliergeo.view",
+        "async": true,
+        "viewPath": "nexus.suppliergeo.view"
+      },
+      "routes": [
+        {
+          "name": "RouteHomePage",
+          "pattern": ":?query:",
+          "target": [
+            "TargetHomePage"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetHomePage": {
+          "id": "HomePage",
+          "name": "HomePage"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "nexus.suppliergeo.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

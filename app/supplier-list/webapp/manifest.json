@@ -1,0 +1,233 @@
+{
+  "_version": "1.86.0",
+  "sap.app": {
+    "id": "nexus.supplierlist",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:lrop",
+      "version": "1.30.0",
+      "toolsId": "b320442f-6cd1-41dc-b512-1f2efbd9728a"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/service/ResilienceCockpitService/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "odataVersion": "4.0"
+        }
+      }
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "Suppliers-manage": {
+          "semanticObject": "Suppliers",
+          "action": "manage",
+          "title": "{{Suppliers-manage.flpTitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.151.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.fe.templates": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "nexus.supplierlist.i18n.i18n"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true
+        }
+      },
+      "@i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "uri": "i18n/i18n.properties"
+      }
+    },
+    "resources": {
+      "css": []
+    },
+    "routing": {
+      "config": {},
+      "routes": [
+        {
+          "pattern": ":?query:",
+          "name": "AlternateSuppliersList",
+          "target": "AlternateSuppliersList"
+        },
+        {
+          "pattern": "AlternateSuppliers({key}):?query:",
+          "name": "AlternateSuppliersObjectPage",
+          "target": "AlternateSuppliersObjectPage"
+        },
+        {
+          "pattern": "AlternateSuppliers({key})/SupplierMaterials({key2}):?query:",
+          "name": "SupplierMaterialsObjectPage",
+          "target": "SupplierMaterialsObjectPage"
+        }
+      ],
+      "targets": {
+        "AlternateSuppliersList": {
+          "type": "Component",
+          "id": "AlternateSuppliersList",
+          "name": "sap.fe.templates.ListReport",
+          "options": {
+            "settings": {
+              "contextPath": "/AlternateSuppliers",
+              "variantManagement": "Page",
+              "navigation": {
+                "AlternateSuppliers": {
+                  "detail": {
+                    "route": "AlternateSuppliersObjectPage"
+                  }
+                }
+              },
+              "controlConfiguration": {
+                "@com.sap.vocabularies.UI.v1.LineItem": {
+                  "tableSettings": {
+                    "type": "ResponsiveTable"
+                  },
+                  "columns": {
+                    "CountryName": {
+                      "header": "Country Column",
+                      "position": {
+                        "anchor": "DataField::Address",
+                        "placement": "After"
+                      },
+                      "template": "nexus.supplierlist.ext.fragment.CountryName"
+                    }
+                  }
+                }
+              },
+              "initialLoad": "Enabled"
+            }
+          }
+        },
+        "AlternateSuppliersObjectPage": {
+          "type": "Component",
+          "id": "AlternateSuppliersObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "contextPath": "/AlternateSuppliers",
+              "navigation": {
+                "SupplierMaterials": {
+                  "detail": {
+                    "route": "SupplierMaterialsObjectPage"
+                  }
+                }
+              },
+              "controlConfiguration": {
+                "SupplierMaterials/@com.sap.vocabularies.UI.v1.LineItem#SupplierMaterials": {
+                  "tableSettings": {
+                    "type": "ResponsiveTable"
+                  }
+                },
+                "@com.sap.vocabularies.UI.v1.FieldGroup#GeneratedGroup": {
+                  "fields": {
+                    "SupplierRatingField": {
+                      "template": "nexus.supplierlist.ext.fragment.SupplierRatingField",
+                      "position": {
+                        "placement": "After",
+                        "anchor": "DataField::Address"
+                      },
+                      "label": "Supplier Rating"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "SupplierMaterialsObjectPage": {
+          "type": "Component",
+          "id": "SupplierMaterialsObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "contextPath": "/AlternateSuppliers/SupplierMaterials",
+              "content": {
+                "body": {
+                  "sections": {
+                    "SpecDoc": {
+                      "template": "nexus.supplierlist.ext.fragment.SpecDoc",
+                      "position": {
+                        "placement": "After",
+                        "anchor": "MaterialInformation"
+                      },
+                      "title": "Spec Doc"
+                    }
+                  }
+                }
+              },
+              "controlConfiguration": {
+                "PossibleAlternates/@com.sap.vocabularies.UI.v1.LineItem#AlternativesforOriginalMaterials": {
+                  "tableSettings": {
+                    "type": "ResponsiveTable"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sap.fiori": {
+    "registrationIds": [],
+    "archeType": "transactional"
+  },
+  "sap.fe": {
+    "app": {
+      "enableLazyLoading": true
+    }
+  }
+}

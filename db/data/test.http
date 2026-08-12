@@ -112,3 +112,22 @@ Authorization: Basic alice:welcome
 Accept: application/json
 
 
+### Test Alternate Suppliers
+
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
+Authorization: Basic alice:welcome
+Accept: application/json
+
+
+### Test Possible Alternates
+
+GET http://localhost:4004/service/ResilienceCockpitService/A_PurchasingInfoRecord?$select=PurchasingInfoRecord,Material,PurchasingInfoRecordDesc
+Authorization: Basic alice:welcome
+Accept: application/json
+
+
+### for Retriving Single Record
+
+GET http://localhost:4004/service/ResilienceCockpitService/A_PurchasingInfoRecord(PurchasingInfoRecord='5300000100')?$select=PurchasingInfoRecord,Material,PurchasingInfoRecordDesc
+Authorization: Basic alice:welcome
+Accept: application/json
