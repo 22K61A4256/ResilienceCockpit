@@ -177,4 +177,3 @@ build-parameters:
       commands:
         - npm ci
         - npx cds build --production
-        - npx cds build --for hana --production
