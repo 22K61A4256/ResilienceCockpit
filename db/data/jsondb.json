@@ -1,0 +1,9 @@
+{
+  "ShippingCostPerConsignment": [
+    {
+      "SourceCountry": "JP",
+      "cost_value": 4000,
+      "cost_currency_code": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<mvc:View controllerName="nexus.suppliergeo.controller.HomePage"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:gm="sap.ui.geomap"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <SearchField id="searchField"/>
+        <Button
+            id="BadgedButton"
+            class="sapUiTinyMarginBeginEnd"
+            icon="sap-icon://add"
+            type="Emphasized"
+            badgeStyle="Default"
+            text="Some Text">
+            <customData>
+                <BadgeCustomData
+                id="badgeCustomData"
+                    key="badge"
+                    value="2"
+                    visible="true"/>
+            </customData>
+        </Button>
+
+
+        <gm:Geomap id="map"
+            width="100%"
+            height="90%"
+            items="{/A_PurchasingInfoRecord}"
+            centerLat="49.19224998218536"
+            centerLng="9.209693384445245"
+            zoom="5">
+            <gm:mapControls>
+                <!-- MAP PROVIDER - defines where the map is fetched from -->
+                <gm:GeomapProvider id="mapProvider" styleUrl="https://basemaps-api.arcgis.com/arcgis/rest/services/styles/ArcGIS:Streets?type=style&amp;token="></gm:GeomapProvider>
+                <!-- Show the navigation controls -->
+                <gm:GeomapNavigationControl id="navigationControl"></gm:GeomapNavigationControl>
+                <!-- Show the scale controls at bottom left-->
+                <gm:GeomapScaleControl id="scaleControl" position="BottomLeft"></gm:GeomapScaleControl>
+                <!-- <gm:GeomapCopyrightControl id="copyrightControl" position="BottomRight">
+                        <Text class="copyright" text="Map data from "/>
+                        <Link class="sapUiTinyMarginBegin" target="_blank" text="OpenStreetMap" href="https://www.openstreetmap.org/copyright"/>
+                </gm:GeomapCopyrightControl> -->
+            </gm:mapControls>
+            <gm:items>
+                <!-- Add a spot to one of the most beautiful places in the world -->
+                <gm:GeomapSpot id="spot1" lat="{Lat}" lng="{Lng}" color="black" click="spotClick"></gm:GeomapSpot>
+            </gm:items>
+        </gm:Geomap>
+
+
+    </Page>
+</mvc:View>

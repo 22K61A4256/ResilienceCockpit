@@ -1,6 +1,52 @@
 {
-  "description": "Security profile of called application",
-  "scopes": [],
+  "xsappname": "ResilienceCockpit-local",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.NX-SC-USER",
+      "description": "NX-SC-USER"
+    },
+    {
+      "name": "$XSAPPNAME.NX-SC-ANL",
+      "description": "NX-SC-ANL"
+    },
+    {
+      "name": "$XSAPPNAME.NX-PR-ANL",
+      "description": "NX-PR-ANL"
+    },
+    {
+      "name": "$XSAPPNAME.NX-SC-MGR",
+      "description": "NX-SC-MGR"
+    }
+  ],
   "attributes": [],
-  "role-templates": []
+  "role-templates": [
+    {
+      "name": "NX-SC-ANL",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.NX-SC-ANL",
+        "$XSAPPNAME.NX-SC-USER"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "NX-PR-ANL",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.NX-PR-ANL",
+        "$XSAPPNAME.NX-SC-USER"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "NX-SC-MGR",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.NX-SC-MGR",
+        "$XSAPPNAME.NX-SC-USER"
+      ],
+      "attribute-references": []
+    }
+  ]
 }

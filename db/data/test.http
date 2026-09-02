@@ -1,52 +1,53 @@
 ### Odata service entry point
 GET http://localhost:4004/service/ResilienceCockpitService
-
+Authorization: Basic alice:welcome
 
 ### Request to fetch Local Supplier List
 GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
-Authorization: Basic alice:welcome
+Authorization: Basic bob:welcome
 
 
 ### Request to fetch Local Supplier List in ODATA V2
 GET http://localhost:4004/odata/v2/service/ResilienceCockpitService/AlternateSuppliers?$expand=SupplierMaterials
-Authorization: Basic alice:welcome
+Authorization: Basic bob:welcome
 
 ### Request to fetch Local Supplier List with filtered data
-GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers?$filter=CountryCode eq 'IN'
-Authorization: Basic alice:welcome
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers?$filter=Country_code eq 'IN'
+Authorization: Basic bob:welcome
 
 
 ### Read specific entity
-GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)
-Authorization: Basic alice:welcome
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=21994e0a-3c06-459b-ac22-20a3719d08f9,IsActiveEntity=true)
+Authorization: Basic bob:welcome
 
 ### Expantion for Supplier Materials
-GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)?$expand=SupplierMaterials
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=21994e0a-3c06-459b-ac22-20a3719d08f9,IsActiveEntity=true)?$expand=SupplierMaterials
+Authorization: Basic david:welcome
 
 
 ### Update specific entity, Property
-PATCH http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652249-63ee-4bc8-bd18-96681c90bea2,IsActiveEntity=true)
-Authorization: Basic alice:welcome
+PATCH http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=21994e0a-3c06-459b-ac22-20a3719d08f9,IsActiveEntity=true)
+Authorization: Basic charlie:welcome
 Content-Type: application/json
 
 {
-    "SupplierRating": 50
+    "Address": "Bangalore, Karnataka, India"
 }
 
 
 ### Update specific entity, Nested Property
-PATCH http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652249-63ee-4bc8-bd18-96681c90bea2,IsActiveEntity=true)
-Authorization: Basic alice:welcome
+PATCH http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=21994e0a-3c06-459b-ac22-20a3719d08f9,IsActiveEntity=true)
+Authorization: Basic charlie:welcome
 Content-Type: application/json
 
 {
-    "CountryCode": "ABC"
+    "Country_code": "JP"
 }
 
 
 ### Update specific entity, Nested Property
 POST http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
-Authorization: Basic alice:welcome
+Authorization: Basic david:welcome
 Content-Type: application/json
 
 {
@@ -54,25 +55,30 @@ Content-Type: application/json
     "SupplierName": "John Systems A",
     "Address": "Address-1265a 12312asds dasdasd",
     "SupplierRating": 0,
-    "CountryCode": "IN",
+    "Country_code": "IN",
     "IsActiveEntity": true
 }
 
+###
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
+Authorization: Basic david:welcome
+
+
 
 ### Update specific entity, Nested Property
-DELETE http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=f711c2d8-aad2-4613-b480-485235776ca0,IsActiveEntity=false)
-Authorization: Basic alice:welcome
+DELETE http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=21994e0a-3c06-459b-ac22-20a3719d08f9,IsActiveEntity=true)
+Authorization: Basic charlie:welcome
 
 
 
 ### Custom Function trigger
-GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)/SupplierItemCount
-Authorization: Basic alice:welcome
+GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652249-63ee-4bc8-bd18-96681c90bea2,IsActiveEntity=true)/SupplierItemCount
+Authorization: Basic charlie:welcome
 
 
 ### Custom Action trigger
-POST http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652250-179d-4ea7-b3ff-38ce71a697f3,IsActiveEntity=true)/UpVote
-Authorization: Basic alice:welcome
+POST http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers(ID=12652249-63ee-4bc8-bd18-96681c90bea22,IsActiveEntity=true)/UpVote
+Authorization: Basic charlie:welcome
 
 
 ### Create a draft entry
@@ -97,6 +103,7 @@ APIKey: PzGAwHucAmdaYPdJOIyU94fXj3HZsMIG
 Accept: application/json
 
 
+
 ### Read data from Destination
 GET http://SAP_API_HUB.dest/A_PurchasingInfoRecord
 Accept: application/json
@@ -109,25 +116,37 @@ GET http://localhost:8887/reload
 ###
 GET http://localhost:4004/service/ResilienceCockpitService/A_PurchasingInfoRecord
 Authorization: Basic alice:welcome
-Accept: application/json
 
 
-### Test Alternate Suppliers
-
-GET http://localhost:4004/service/ResilienceCockpitService/AlternateSuppliers
-Authorization: Basic alice:welcome
-Accept: application/json
-
-
-### Test Possible Alternates
-
+###
 GET http://localhost:4004/service/ResilienceCockpitService/A_PurchasingInfoRecord?$select=PurchasingInfoRecord,Material,PurchasingInfoRecordDesc
 Authorization: Basic alice:welcome
-Accept: application/json
 
 
-### for Retriving Single Record
-
+### for retrieving single record
 GET http://localhost:4004/service/ResilienceCockpitService/A_PurchasingInfoRecord(PurchasingInfoRecord='5300000100')?$select=PurchasingInfoRecord,Material,PurchasingInfoRecordDesc
 Authorization: Basic alice:welcome
-Accept: application/json
+
+
+### Data from local service
+GET http://jsondb.dest/ShippingCostPerConsignment
+
+
+### Reload Connectivity Proxy
+GET http://localhost:8887/reload
+
+
+###
+POST http://jsondb.dest/ShippingCostPerConsignment
+Content-Type: application/json
+
+{
+      "SourceCountry": "JP",
+      "cost_value": 4000,
+      "cost_currency_code": "EUR"
+    },
+
+### Data from local service
+GET http://jsondb.dest/ShippingCostPerConsignment?SourceCountry=JP
+
+

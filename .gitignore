@@ -15,4 +15,7 @@ mta_archives/
 .DS_Store
 
 # @cap-js/cds-typer
-@cds-models
+@cds-modelsgit add app
+
+# auto generated wildcard
+.env

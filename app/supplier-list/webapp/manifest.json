@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.30.0",
-      "toolsId": "b320442f-6cd1-41dc-b512-1f2efbd9728a"
+      "toolsId": "5a18da8e-6e84-4ceb-a652-05046e759191"
     },
     "dataSources": {
       "mainService": {
@@ -132,20 +132,9 @@
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable"
-                  },
-                  "columns": {
-                    "CountryName": {
-                      "header": "Country Column",
-                      "position": {
-                        "anchor": "DataField::Address",
-                        "placement": "After"
-                      },
-                      "template": "nexus.supplierlist.ext.fragment.CountryName"
-                    }
                   }
                 }
-              },
-              "initialLoad": "Enabled"
+              }
             }
           }
         },
@@ -229,5 +218,9 @@
     "app": {
       "enableLazyLoading": true
     }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "nexus"
   }
 }

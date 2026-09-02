@@ -37,7 +37,7 @@ modules:
   - name: ResilienceCockpit-html5-repo-host
     parameters:
       config:
-        HTML5Runtime_enabled: true
+        HTML5Runtime_enabled: false
       content-target: true
   build-parameters:
     build-result: app/
@@ -70,6 +70,44 @@ modules:
     - npm install
     - npm run build:cf
     supported-platforms: []
+- name: ResilienceCockpit-destination-content
+  type: com.sap.application.content
+  requires:
+    - name: ResilienceCockpit-auth
+      parameters:
+        service-key:
+          name: ResilienceCockpit-auth-key
+    - name: ResilienceCockpit-html5-repo-host
+      parameters:
+        service-key:
+          name: ResilienceCockpit-html5-repo-host-key
+    - name: srv-api
+    - name: ResilienceCockpit-destination
+      parameters:
+        content-target: true
+  parameters:
+    content:
+      instance:
+        destinations:
+          - Authentication: OAuth2UserTokenExchange
+            Name: srv-api
+            TokenServiceInstanceName: ResilienceCockpit-auth
+            TokenServiceKeyName: ResilienceCockpit-auth-key
+            URL: ~{srv-api/srv-url}
+          - Name: ResilienceCockpit-html5-repo-host
+            ServiceInstanceName: ResilienceCockpit-html5-repo-host
+            ServiceKeyName: ResilienceCockpit-html5-repo-host-key
+            sap.cloud.service: nexus
+          - Authentication: OAuth2UserTokenExchange
+            Name: ResilienceCockpit-auth
+            ServiceInstanceName: ResilienceCockpit-auth
+            ServiceKeyName: ResilienceCockpit-auth-key
+        existing_destinations_policy: update
+  build-parameters:
+    no-source: true
+
+
+
 resources:
 - name: ResilienceCockpit-auth
   type: org.cloudfoundry.managed-service
@@ -98,7 +136,7 @@ resources:
   type: org.cloudfoundry.managed-service
   parameters:
     config:
-      HTML5Runtime_enabled: false
+      HTML5Runtime_enabled: true
       init_data:
         instance:
           destinations:
@@ -128,13 +166,15 @@ resources:
   type: org.cloudfoundry.managed-service
   parameters:
     service: application-logs
-    service-plan: standard
+    service-plan: lite
 parameters:
   deploy_mode: html5-repo
   enable-parallel-deployments: true
+
 build-parameters:
   before-all:
-  - builder: custom
-    commands:
-    - npm ci
-    - npx cds build --production
+    - builder: custom
+      commands:
+        - npm ci
+        - npx cds build --production
+        - npx cds build --for hana --production

@@ -2,43 +2,43 @@ using { ResilienceCockpit as my } from '../db/schema.cds';
 
 using { API_INFORECORD_PROCESS_SRV as external } from './external/API_INFORECORD_PROCESS_SRV';
 
-using
-{
-    sap.common.Countries as Countries
-}
-from '@sap/cds/common';
-
-
 @path : '/service/ResilienceCockpitService'
 service ResilienceCockpitService
 {
-    entity CommonCountries as projection on Countries;
     @cds.redirection.target
     @odata.draft.bypass
     @odata.draft.enabled
+    @restrict: [
+        { grant: ['READ'] , to: ['NX-SC-USER' , 'NX-SC-ANL', 'NX-PR-ANL']},
+        { grant: ['READ', 'WRITE'] , to: ['NX-SC-MGR']},
+        { grant: ['READ', 'WRITE'] , to: ['NX-PR-ANL'], where: (createdBy = $user) }
+    ]
     entity AlternateSuppliers as
         projection on my.AlternateSuppliers
         {
             *,
-            Country.name as CountryName,
-            Country.name as Country,
-            Country.code as CountryCode
+            0 as ShippingCost : Decimal(10,2),
+            '' as ShippingCurrency : String(3)
         }
-       // excluding
+        // excluding
         // {
-        //    Country
+        //     Country
         // }
         actions
         {
+            @requires:'NX-SC-MGR'
             function SupplierItemCount
             (
             )
             returns Integer;
 
+            @requires:'NX-SC-MGR'
             action UpVote
             (
             )
             returns AlternateSuppliers;
+
+            @requires:'NX-SC-MGR'
             action DownVote
             (
             )
@@ -49,6 +49,7 @@ service ResilienceCockpitService
     entity SupplierMaterials as
         projection on my.SupplierMaterials;
 
+    
     @cds.redirection.target
     entity AlternativeMaterials as
         projection on my.AlternativeMaterials;
@@ -60,6 +61,7 @@ service ResilienceCockpitService
             *,
             0 as Lat : Decimal(10,8),
             0 as Lng : Decimal(10,8)
+
         }
         excluding
         {
@@ -69,5 +71,5 @@ service ResilienceCockpitService
 
 annotate ResilienceCockpitService with @requires :
 [
-    'authenticated-user'
+    'NX-SC-USER'
 ];
