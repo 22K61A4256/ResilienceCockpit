@@ -2,7 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:gm="sap.ui.geomap"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    <Page id="page" title="Supplier Geomap">
         <SearchField id="searchField"/>
         <Button
             id="BadgedButton"
@@ -15,7 +15,7 @@
                 <BadgeCustomData
                 id="badgeCustomData"
                     key="badge"
-                    value="20"
+                    value="1"
                     visible="true"/>
             </customData>
         </Button>
