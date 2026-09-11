@@ -1,0 +1,182 @@
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T00:00:56.634736] Stopping app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T00:00:56.674098] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 stopping instance f99b6d11-bd65-4aa2-5965-2dad (STDOUT, CELL)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T00:02:02.957648] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 destroying container for instance f99b6d11-bd65-4aa2-5965-2dad (STDOUT, CELL)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T00:02:03.038351] Exit status 137 (STDOUT, PROXY)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T00:02:04.429733] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 successfully destroyed container for instance f99b6d11-bd65-4aa2-5965-2dad (STDOUT, CELL)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:28:58.675330] Updated app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:28:58.767336] Updating process: "web" (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:27.769362] Uploading app package for app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:27.931193] Updated app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:37.629348] Creating build for app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:37.948754] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:37.986908] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:37.986990] Cell 911a2f96-661c-46fd-ae0b-1bce220e9e4e creating container for instance f893d55d-ec32-4ed2-8d99-1f6c5a2d27a6 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:38.301207] Security group rules were updated (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:38.355395] Cell 911a2f96-661c-46fd-ae0b-1bce220e9e4e successfully created container for instance f893d55d-ec32-4ed2-8d99-1f6c5a2d27a6 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:38.811514] Downloading app package... (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:38.811552] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:38.884934] Downloaded build artifacts cache (223B) (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:39.860699] Downloaded app package (15.4M) (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:39.913099] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:40.263184] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:40.263211] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:40.263287] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:43.472766] -----> Installing binaries (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:43.473581] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:43.473592] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:43.473596] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:43.473723] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:43.473878] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.202191] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.202215] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.202235] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.446803] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.446826] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448008] NODE_ENV=production (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448020] NODE_HOME=/tmp/contents3344835747/deps/0/node (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448022] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448024] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448026] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448029] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448039] -----> Building dependencies (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448041] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:45.448089] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.045487] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.046852] npm notice (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.046885] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.046890] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.046895] npm notice To update run: npm install -g npm@12.0.2 (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.046898] npm notice (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.096255] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.892649] up to date in 737ms (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.892847] 37 packages are looking for funding (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4248#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:46.892873] run `npm fund` for details (STDOUT, STG)#
+#2026 09 09 06:29:57.474#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4252#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:48.060906] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:57.731812] Exit status 0 (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:57.731855] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:57.731888] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:57.731924] Uploading droplet... (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:57.746428] Uploaded build artifacts cache (225B) (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:29:58.319701] Creating droplet for app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e (STDOUT, API)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:02.391089] Uploaded droplet (70.5M) (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:02.407221] Uploading complete (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:02.726045] Cell 911a2f96-661c-46fd-ae0b-1bce220e9e4e stopping instance f893d55d-ec32-4ed2-8d99-1f6c5a2d27a6 (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:02.726073] Cell 911a2f96-661c-46fd-ae0b-1bce220e9e4e destroying container for instance f893d55d-ec32-4ed2-8d99-1f6c5a2d27a6 (STDOUT, STG)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:02.795419] Staging complete for build f893d55d-ec32-4ed2-8d99-1f6c5a2d27a6 (STDOUT, API)#
+#2026 09 09 06:30:07.512#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4256#
+[PollStageAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:06.423345] Cell 911a2f96-661c-46fd-ae0b-1bce220e9e4e successfully destroyed container for instance f893d55d-ec32-4ed2-8d99-1f6c5a2d27a6 (STDOUT, STG)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:07.578364] Updated app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e ({:droplet_guid=>"390c1902-9b23-4a1f-8d65-4098b78edd57"}) (STDOUT, API)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:07.797163] Creating revision for app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e (STDOUT, API)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:07.849260] Starting app with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e (STDOUT, API)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:08.034628] Cell 911a2f96-661c-46fd-ae0b-1bce220e9e4e creating container for instance e811432e-61fc-4d34-672d-2bc9 (STDOUT, CELL)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:08.372640] Security group rules were updated (STDOUT, CELL)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:08.435126] Cell 911a2f96-661c-46fd-ae0b-1bce220e9e4e successfully created container for instance e811432e-61fc-4d34-672d-2bc9 (STDOUT, CELL)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:09.432266] Downloading droplet... (STDOUT, CELL)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:12.884722] Downloaded droplet (70.5M) (STDOUT, CELL)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:12.884907] Starting health monitoring of container (STDOUT, CELL)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:12.935431] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.077355] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.371316] > ResilienceCockpit@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.371349] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.543948] [cds] - bootstrapping from { file: 'srv/server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.727371] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:13.726Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"loaded model from 1 file(s):\n ","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.727392] srv/csn.json (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.900647] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:13.900Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"connect to db > hana {\n  url: 'jdbc:sap://eb9e608b-a8d8-462e-98e7-906abde25244.hna0.prod-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=8697B1A4A8B84AC49EFF171810969752',\n  database_id: 'eb9e608b-a8d8-462e-98e7-906abde25244',\n  host: 'eb9e608b-a8d8-462e-98e7-906abde25244.hna0.prod-us10.hanacloud.ondemand.com',\n  port: '443',\n  driver: 'com.sap.db.jdbc.Driver',\n  schema: '8697B1A4A8B84AC49EFF171810969752',\n  certificate: '...',\n  hdi_user: '8697B1A4A8B84AC49EFF171810969752_B4SCSXTFML48V8NFH3EQ9TGHU_DT',\n  hdi_password: '...',\n  user: '8697B1A4A8B84AC49EFF171810969752_B4SCSXTFML48V8NFH3EQ9TGHU_RT',\n  password: '...'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.991713] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:13.991Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"connect to ShippingCostAPI > rest { destination: 'jsondb' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:13.992156] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:13.991Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"connect to API_INFORECORD_PROCESS_SRV > odata-v2 { destination: 'SAP_API_HUB' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:14.006080] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:14.005Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"using auth strategy { kind: 'xsuaa' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:14.039347] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:14.039Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"serving ResilienceCockpitService {\n  at: [ '/service/ResilienceCockpitService' ],\n  decl: 'srv/csn.json:313',\n  impl: 'srv/service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:14.043327] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:14.043Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"server listening on { url: 'http://localhost:8080' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:14.043368] {"level":"info","logger":"cds","timestamp":"2026-09-09T06:30:14.043Z","layer":"cds","component_type":"application","container_id":"10.37.64.5","component_id":"846298f7-a9cf-4b9f-a20b-63e370407f6e","component_name":"ResilienceCockpit-srv","component_instance":0,"source_instance":0,"organization_name":"94060551trial","organization_id":"78e7b825-503f-4bdc-af4e-be86d7f43c8e","space_name":"dev","space_id":"039a1fe6-69a4-4c1e-9b8f-a64d47329d3e","msg":"server v9.9.3 launched in 664 ms","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:16.964691] Container became healthy (STDOUT, CELL)#
+#2026 09 09 06:30:17.535#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-srv#flowable-async-job-executor-thread-4263#
+[PollStartAppStatusExecution] 846298f7-a9cf-4b9f-a20b-63e370407f6e [2026-09-09T06:30:16.989383] Process became ready with guid 846298f7-a9cf-4b9f-a20b-63e370407f6e payload: {"instance"=>"e811432e-61fc-4d34-672d-2bc9", "index"=>0, "cell_id"=>"911a2f96-661c-46fd-ae0b-1bce220e9e4e", "ready"=>true, "version"=>"63575e9c-0739-4121-b4b4-5e714330c610"} (STDOUT, API)#

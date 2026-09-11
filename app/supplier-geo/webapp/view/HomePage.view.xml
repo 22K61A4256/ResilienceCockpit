@@ -15,7 +15,7 @@
                 <BadgeCustomData
                 id="badgeCustomData"
                     key="badge"
-                    value="2"
+                    value="20"
                     visible="true"/>
             </customData>
         </Button>

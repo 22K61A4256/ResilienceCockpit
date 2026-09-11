@@ -1,0 +1,878 @@
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:28:57.928562] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:28:58.022595] Updating process: "web" (STDOUT, API)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:07.598297] Uploading app package for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:07.754364] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.641319] Creating build for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.949539] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.995987] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.996185] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d creating container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.312991] Security group rules were updated (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.375493] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d successfully created container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.635658] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.635658] Downloading app package... (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.711793] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.889746] Downloaded app package (2.5M) (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.939563] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050269] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050286] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050436] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014596] -----> Installing binaries (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014627] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014636] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014777] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014811] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014836] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738681] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738730] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738828] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.983778] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.983802] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985208] NODE_ENV=production (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985223] NODE_HOME=/tmp/contents338994896/deps/0/node (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985226] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985228] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985230] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985233] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985240] -----> Building dependencies (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985243] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985266] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.370362] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.416481] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743378] up to date in 269ms (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743517] 4 packages are looking for funding (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743646] run `npm fund` for details (STDOUT, STG)#
+#2026 09 09 06:29:27.481#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4235#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:25.119768] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664341] Exit status 0 (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664380] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664407] Uploading droplet... (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664489] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.690786] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:33.201503] Creating droplet for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.266887] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.282051] Uploading complete (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.752177] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d stopping instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.752206] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d destroying container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:37.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4239#
+[PollStageAppStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.817070] Staging complete for build 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:28:57.928562] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:28:58.022595] Updating process: "web" (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:07.598297] Uploading app package for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:07.754364] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.641319] Creating build for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.949539] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.995987] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.996185] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d creating container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.312991] Security group rules were updated (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.375493] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d successfully created container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.635658] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.635658] Downloading app package... (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.711793] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.889746] Downloaded app package (2.5M) (STDOUT, STG)#
+#2026 09 09 06:29:47.479#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.939563] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050269] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050286] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050436] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014596] -----> Installing binaries (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014627] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014636] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014777] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014811] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014836] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738681] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738730] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738828] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.983778] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.983802] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985208] NODE_ENV=production (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985223] NODE_HOME=/tmp/contents338994896/deps/0/node (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985226] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985228] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985230] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985233] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985240] -----> Building dependencies (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985243] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985266] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.370362] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.416481] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743378] up to date in 269ms (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743517] 4 packages are looking for funding (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743646] run `npm fund` for details (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:25.119768] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664341] Exit status 0 (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664380] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664407] Uploading droplet... (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664489] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.690786] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:33.201503] Creating droplet for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.266887] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.282051] Uploading complete (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.752177] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d stopping instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.752206] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d destroying container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.817070] Staging complete for build 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, API)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:37.546813] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({:droplet_guid=>"974de1d9-9657-4377-a4be-8ff3ad1bba08"}) (STDOUT, API)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:37.905522] Cell 919653e1-7038-451d-ac9f-e4bd0de8dbda creating container for instance daab8755-c078-4b84-b59d-9a27fb2d1544 (STDOUT, CELL)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:38.223528] Security group rules were updated (STDOUT, CELL)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:38.286047] Cell 919653e1-7038-451d-ac9f-e4bd0de8dbda successfully created container for instance daab8755-c078-4b84-b59d-9a27fb2d1544 (STDOUT, CELL)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:40.427870] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d successfully destroyed container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:41.576226] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:41.713623] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.000008] > start (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.000024] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102187] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102646] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102656] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102659] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102662] "name": "ResilienceCockpit-db", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102669] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102673] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102675] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102678] "schema": "8697B1A4A8B84AC49EFF171810969752", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102680] "database_id": "eb9e608b-a8d8-462e-98e7-906abde25244", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102683] "user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_RT", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102687] "hdi_user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_DT" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102690] }, (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102692] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102697] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102698] "database", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102700] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102702] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102704] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102706] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102707] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419521] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419542] Deployment started at 2026-09-09 06:29:46 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419713] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419750] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419754] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419773] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419780] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.420053] Deployment ended at 2026-09-09 06:29:46 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.420150] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.420290] (4s 390ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429220] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429241] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429246] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429249] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429251] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:47.480#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4247#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.485224] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:28:57.928562] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:28:58.022595] Updating process: "web" (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:07.598297] Uploading app package for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:07.754364] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.641319] Creating build for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.949539] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.995987] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:17.996185] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d creating container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.312991] Security group rules were updated (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.375493] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d successfully created container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.635658] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.635658] Downloading app package... (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.711793] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.889746] Downloaded app package (2.5M) (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:18.939563] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050269] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050286] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:19.050436] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014596] -----> Installing binaries (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014627] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014636] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014777] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014811] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:22.014836] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738681] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738730] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.738828] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.983778] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.983802] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985208] NODE_ENV=production (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985223] NODE_HOME=/tmp/contents338994896/deps/0/node (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985226] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985228] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985230] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985233] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985240] -----> Building dependencies (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985243] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:23.985266] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.370362] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.416481] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743378] up to date in 269ms (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743517] 4 packages are looking for funding (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:24.743646] run `npm fund` for details (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:25.119768] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664341] Exit status 0 (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664380] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664407] Uploading droplet... (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.664489] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:32.690786] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:33.201503] Creating droplet for app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.266887] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.282051] Uploading complete (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.752177] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d stopping instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.752206] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d destroying container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:36.817070] Staging complete for build 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:37.546813] Updated app with guid 2d23200b-60aa-4519-b7f8-9f40de7a8ecc ({:droplet_guid=>"974de1d9-9657-4377-a4be-8ff3ad1bba08"}) (STDOUT, API)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:37.905522] Cell 919653e1-7038-451d-ac9f-e4bd0de8dbda creating container for instance daab8755-c078-4b84-b59d-9a27fb2d1544 (STDOUT, CELL)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:38.223528] Security group rules were updated (STDOUT, CELL)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:38.286047] Cell 919653e1-7038-451d-ac9f-e4bd0de8dbda successfully created container for instance daab8755-c078-4b84-b59d-9a27fb2d1544 (STDOUT, CELL)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:40.427870] Cell da97415f-d45d-4f73-b6f3-2c853ecdb03d successfully destroyed container for instance 9467e4ba-8f3c-4758-9973-287c69d4957c (STDOUT, STG)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:41.576226] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:41.713623] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.000008] > start (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.000024] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102187] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102646] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102656] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102659] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102662] "name": "ResilienceCockpit-db", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102669] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102673] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102675] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102678] "schema": "8697B1A4A8B84AC49EFF171810969752", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102680] "database_id": "eb9e608b-a8d8-462e-98e7-906abde25244", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102683] "user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_RT", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102687] "hdi_user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_DT" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102690] }, (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102692] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102697] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102698] "database", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102700] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102702] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102704] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102706] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:42.102707] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419521] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419542] Deployment started at 2026-09-09 06:29:46 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419713] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419750] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419754] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419773] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.419780] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.482#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.420053] Deployment ended at 2026-09-09 06:29:46 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.420150] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.420290] (4s 390ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429220] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429241] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429246] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429249] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.429251] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:46.485224] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:47.266825] Cell 919653e1-7038-451d-ac9f-e4bd0de8dbda stopping instance daab8755-c078-4b84-b59d-9a27fb2d1544 (STDOUT, CELL)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:47.266874] Cell 919653e1-7038-451d-ac9f-e4bd0de8dbda destroying container for instance daab8755-c078-4b84-b59d-9a27fb2d1544 (STDOUT, CELL)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:49.406938] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 creating container for instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:49.464634] Cell 919653e1-7038-451d-ac9f-e4bd0de8dbda successfully destroyed container for instance daab8755-c078-4b84-b59d-9a27fb2d1544 (STDOUT, CELL)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:49.728208] Security group rules were updated (STDOUT, CELL)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:49.787682] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 successfully created container for instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:52.639393] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:52.779703] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.064451] > start (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.064474] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165389] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165875] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165900] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165905] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165909] "name": "ResilienceCockpit-db", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165912] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165916] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165919] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165922] "schema": "8697B1A4A8B84AC49EFF171810969752", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165931] "database_id": "eb9e608b-a8d8-462e-98e7-906abde25244", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165934] "user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_RT", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165937] "hdi_user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_DT" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165941] }, (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165943] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165946] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165948] "database", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165950] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165954] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165956] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165958] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:29:57.483#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4253#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:53.165959] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.445874] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.445900] Deployment started at 2026-09-09 06:29:57 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446086] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446101] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446117] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446123] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446132] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446427] Deployment ended at 2026-09-09 06:29:57 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446554] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446686] (4s 352ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455801] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455817] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455821] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455826] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455828] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.506382] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:58.007165] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 stopping instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:58.007216] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 destroying container for instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:30:07.464#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4257#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:59.846475] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 successfully destroyed container for instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.445874] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.445900] Deployment started at 2026-09-09 06:29:57 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446086] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446101] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446117] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446123] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446132] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446427] Deployment ended at 2026-09-09 06:29:57 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446554] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.446686] (4s 352ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455801] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455817] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455821] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455826] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:17.469#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.455828] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:57.506382] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:58.007165] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 stopping instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:58.007216] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 destroying container for instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:29:59.846475] Cell 2cba0a63-a06b-4c2d-9ff8-cb3bec259489 successfully destroyed container for instance fa911a38-9d56-46fa-9367-b2872a90d578 (STDOUT, CELL)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:10.627198] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b creating container for instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:10.965272] Security group rules were updated (STDOUT, CELL)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:11.020360] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b successfully created container for instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:13.946305] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.088111] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.379242] > start (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.379264] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.481511] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482009] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482025] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482030] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482034] "name": "ResilienceCockpit-db", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482037] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482039] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482044] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482046] "schema": "8697B1A4A8B84AC49EFF171810969752", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482048] "database_id": "eb9e608b-a8d8-462e-98e7-906abde25244", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482052] "user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_RT", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482055] "hdi_user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_DT" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482056] }, (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482059] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482063] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482065] "database", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482066] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482068] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482070] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482075] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:17.470#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4262#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:14.482077] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.787995] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788021] Deployment started at 2026-09-09 06:30:18 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788212] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788224] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788231] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788241] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788300] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788638] Deployment ended at 2026-09-09 06:30:18 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788741] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788885] (4s 380ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797675] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797685] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797688] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797690] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797692] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.846090] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:19.495077] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b stopping instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:19.495127] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b destroying container for instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:27.485#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4266#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:21.687733] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b successfully destroyed container for instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.787995] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788021] Deployment started at 2026-09-09 06:30:18 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788212] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788224] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788231] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788241] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788300] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788638] Deployment ended at 2026-09-09 06:30:18 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788741] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.788885] (4s 380ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797675] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797685] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797688] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797690] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.797692] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:18.846090] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:19.495077] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b stopping instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:19.495127] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b destroying container for instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:21.687733] Cell f95ef7fb-a2f2-480d-af80-cd44d0d9846b successfully destroyed container for instance 31964894-957b-4bf1-bbc2-b9be94f1af5a (STDOUT, CELL)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:29.116266] Cell 5858d551-eb50-4c49-a9e3-e09165113251 creating container for instance ee46b2a8-5383-4e90-a5ad-0fdd18cd23b8 (STDOUT, CELL)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:29.464728] Security group rules were updated (STDOUT, CELL)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:29.527231] Cell 5858d551-eb50-4c49-a9e3-e09165113251 successfully created container for instance ee46b2a8-5383-4e90-a5ad-0fdd18cd23b8 (STDOUT, CELL)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:32.640659] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:32.782010] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.069682] > start (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.069705] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.170884] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171283] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171299] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171302] { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171305] "name": "ResilienceCockpit-db", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171308] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171311] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171317] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171320] "schema": "8697B1A4A8B84AC49EFF171810969752", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171323] "database_id": "eb9e608b-a8d8-462e-98e7-906abde25244", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171325] "user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_RT", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171329] "hdi_user": "8697B1A4A8B84AC49EFF171810969752_94GU5GV2BBQ6JWQX102ZOJ91W_DT" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171333] }, (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171335] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171337] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171339] "database", (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171341] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171347] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171350] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171353] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:37.575#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4273#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:33.171356] } (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465459] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465485] Deployment started at 2026-09-09 06:30:37 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465588] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465606] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465633] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465641] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465652] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.465917] Deployment ended at 2026-09-09 06:30:37 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.466134] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.466191] (4s 366ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.474789] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.474816] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.474825] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.474830] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.474835] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.524226] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.990845] Cell 5858d551-eb50-4c49-a9e3-e09165113251 stopping instance ee46b2a8-5383-4e90-a5ad-0fdd18cd23b8 (STDOUT, CELL)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:37.990881] Cell 5858d551-eb50-4c49-a9e3-e09165113251 destroying container for instance ee46b2a8-5383-4e90-a5ad-0fdd18cd23b8 (STDOUT, CELL)#
+#2026 09 09 06:30:47.493#Z#DEBUG#b34eb0e1-ac17-11f1-a392-eeee0a8d8db9.ResilienceCockpit-db-deployer#flowable-async-job-executor-thread-4275#
+[PollExecuteTaskStatusExecution] 2d23200b-60aa-4519-b7f8-9f40de7a8ecc [2026-09-09T06:30:40.151142] Cell 5858d551-eb50-4c49-a9e3-e09165113251 successfully destroyed container for instance ee46b2a8-5383-4e90-a5ad-0fdd18cd23b8 (STDOUT, CELL)#

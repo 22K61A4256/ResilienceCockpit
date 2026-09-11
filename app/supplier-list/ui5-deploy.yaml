@@ -1,6 +1,6 @@
 specVersion: "4.0"
 metadata:
-  name: nexus.suppliergeo
+  name: nexus.supplierlist
 type: application
 builder:
   resources:
